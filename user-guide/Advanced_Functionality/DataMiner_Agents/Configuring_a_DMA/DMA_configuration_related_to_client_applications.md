@@ -56,7 +56,7 @@ To customize how Cube connects to a DMA for a specific computer:
 
    - **Destination port**: Select this option to specify a custom destination port number. If you specify "-1", the port will be detected automatically.
 
-   - **Polling interval**: The frequency at which the client application should poll the DMA, in milliseconds. If you want to use remoting and there are firewalls in your network or NAT is used, make sure this option is selected, to ensure that polling is used instead of eventing. For Web Services, this option is enabled by default.
+   - **Polling interval**: The frequency at which the client application should poll the DMA, in milliseconds. If you want to use remoting and there are firewalls in your network or NAT is used, make sure this option is selected, to ensure that polling is used instead of eventing.
 
    - **Use data compression** (Remoting only): Determines whether data are compressed or not. By default, this option is selected, in order to reduce network traffic.
 
